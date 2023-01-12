@@ -1,0 +1,253 @@
+ /* importing font from Google */
+ @import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+ *{
+  font-family: 'Press Start 2p';
+ }
+/* Retro font */
+body {
+  background-color: #666563; /* light beige */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #3f3d3c; /* coral */
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 5px;
+}
+
+#meme-some-btn {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #ffc266; /* blue */
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  ;
+}
+
+#pool-stats {
+  display: flex;
+  flex-wrap:wrap;
+  align-items:center;
+  padding: 20px;
+  background-color: #ffc266; /* yellow */
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #888888;
+  color: antiquewhite;
+}
+
+#leaderboard {
+  display: flex;
+  flex-wrap:wrap;
+  align-items:center;
+  padding: 20px;
+  background-color: #ffc266; /* yellow */
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #888888;
+}
+#pot-size, #race-endspot-size- {
+  width:100%;
+  text-align:center;
+}
+.entry-container{
+  display: flex;
+  flex-wrap:wrap;
+  width:100%;
+}
+.entry{
+  border: 2px solid red;
+  border: 2px solid blue;
+  width: 25%;
+  margin: 10px;
+}
+.entry-info{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.uploader, .wagered {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3d3d3d; /* dark gray */
+  margin-bottom: 10px;
+}
+.place-wager-btn {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #ff7f50; /* coral */
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.meme-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom:10px;
+}
+
+.gameboy {
+  width: 350px;
+  height: 500px;
+  position: relative;
+}
+
+.body {
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background-color: #c9c9c9;
+  border-radius: 20px;
+}
+
+.screen {
+  width: 240px;
+  height: 160px;
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px #666;
+}
+
+.speaker {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  border-radius: 50%;
+  background-color: #c9c9c9;
+}
+
+.power {
+  width: 15px;
+  height: 10px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  border-radius: 3px;
+  background-color: #c9c9c9;
+}
+
+.buttons {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+
+.dpad {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+.dpad-up, .dpad-down, .dpad-left, .dpad-right {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: #fff;
+  position: absolute;
+}
+
+.dpad-up {
+  top: 0px;
+  left: 15px;
+}
+
+.dpad-down {
+  bottom: 0px;
+  left: 15px;
+}
+
+.dpad-left {
+  left: 0px;
+  top: 15px;
+}
+
+.dpad-right {
+  right: 0px;
+  top: 15px;
+}
+
+.ab-buttons {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: #fff;
+  position: absolute;
+}
+
+.button-a {
+  top: 0px;
+  right: 0px;
+}
+
+.button-b {
+  bottom: 0px;
+  right: 0px;
+}
+
+.select-start {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  left: 100px;
+  bottom: 50px;
+}
+
+.select, .start {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #333;
+  background-color: #fff;
+  position: absolute;
+}
+
+.select {
+  left: 0px;
+  bottom: 0px;
+}
+
+.start {
+  right: 0px;
+  bottom: 0px;
+}
